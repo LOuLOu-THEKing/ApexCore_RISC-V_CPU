@@ -127,19 +127,19 @@ We covered wires and regs, combinational circuits, sequential circuits, and fini
  
  - We then started referring to the RISC-V Instruction brochure and other resources from RISC-V to understand the RISC instructions and types and how the extensions are to be implemented in the core.
  
-#### WEEK 5 (Multiplication (M) Extension) COMMIT (After hardware testing M extension)
+#### WEEK 5 (Multiplication (M) Extension) [COMMIT (After hardware testing M extension)](https://github.com/aditya200523/ApexCore/commit/fcc833dd7deb84ae38706458d6c9f1b9a148110e)
  
  - This week was dedicated to understanding the M-extension and implementing the same in the core. After understanding the instructions, we added the necessary operations in ALU. We then expanded the decoder to include those instructions and then changed the control unit to support the changes. 
  
-#### WEEK 6 (Atomic Extension)  COMMIT
+#### WEEK 6 (Atomic Extension)  [COMMIT](https://github.com/aditya200523/ApexCore/commit/7350a3aab02190bfb2f82e5fe19837b146ab3e44)
  - This week was entirely focused on implementing the Atomic Extension instructions. We accomplished changing the RTL in a short span of time, as we had received a great deal of experience from the past week. 
  - But we faced multiple problems while testing the extension. The main reason was the fetch instruction in assembly, which was not allowing the actual execution of the instruction. After researching the problem and meeting with mentors, we realized the importance of control and status registers that were scheduled for the next week.
  
-#### WEEK 7 (Control and Status Registers) COMMIT
+#### WEEK 7 (Control and Status Registers) [COMMIT](https://github.com/aditya200523/ApexCore/commit/a62b29406f1c609e5e163cf8a4d7fa7bd75f5197)
  - We began with a number of Youtube videos that were all about the CSRs. This includes topics related to interrupts and traps. John’s Basement Channel helped us a lot. We then created a CSR module and did the corresponding changes in other modules. 
 
 
-#### WEEK 8 (Input-Output)  COMMIT
+#### WEEK 8 (Input-Output)  [COMMIT](https://github.com/LOuLOu-THEKing/ApexCore_RISC-V_CPU/commit/e2ddd711e141c2451bdb172587890ce78098ace0)
  - This week was focused on working on memory partitioning of data memory to create a separate memory location for input and output streams and for program instruction. We then created the GPIO controller module and started working on how to test it. By doing so, we created a single memory module with two extra buses instead of two different modules. 
 
 

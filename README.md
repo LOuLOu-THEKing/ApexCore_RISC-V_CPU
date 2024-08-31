@@ -52,13 +52,10 @@ And in 2nd stage,
 - Read Data from DMem.
 - Control Unit writes to register file 
 - PC executes jump instruction 
-- Show output on seven segment display.
 
 Following is the block diagram and workflow in simple terms of our CPU:-
 ![image.png](assets/data_flowchat.png)
 
-
-![image.png](assets/instr_flowchart.png)
 
 ---
 
